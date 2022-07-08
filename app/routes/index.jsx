@@ -246,7 +246,7 @@ export default function Index() {
           <div className="flex border border-sky-600 rounded mx-16 p-3 pl-5 place-content-between items-center">
             <div>Reduced downtime</div>
             <div>
-              <img className="h-16" src="img/stopwatch.png" alt="" />
+              <img className="h-16" src="img/stopwatch.png" alt="stop" />
             </div>
           </div>
           <div className="flex bg-sky-600 rounded mx-16 p-3 pl-5 items-center">
@@ -254,12 +254,12 @@ export default function Index() {
               Faster deployment of software
             </div>
             <div>
-              <img className="h-10 px-2" src="img/software-03.png" alt="" />
+              <img className="h-10 px-2" src="img/software-03.png" alt="ware" />
             </div>
           </div>
         </div>
 
-        <div className="hidden md:block ">
+        <div className="hidden md:block">
           <div className="flex text-center py-6 font-mono text-xl space-x-10">
             <div className="flex flex-col-reverse bg-sky-600 rounded p-3 pl-5 place-content-between items-center">
               <div>Peace of mind</div>
@@ -300,7 +300,7 @@ export default function Index() {
       <div className="md:flex bg-chess bg-cover md:bg-none text-center h-72 md:h-auto pt-16 md:pt-0">
         <div className="md:w-3/5 py-8 px-4 bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72">
           <p className="font-bold text-slate-800 pb-8 px-4 text-2xl">
-            A CLEAR <span className="text-emerald-400">HOLISTIC</span>{" "}
+            A CLEAR <span className="text-emerald-400">HOLISTIC</span>
             BUSINESS-LED APPROACH
           </p>
           <p className="font-mono text-sm font-bold">
