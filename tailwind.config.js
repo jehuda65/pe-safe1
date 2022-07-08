@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-      'blue-white': "url('/img/background.png')",
+      'carry': "url('/img/bg-3.png')",
       'chess': "url('/img/chess.jpeg')",
   }),
   
