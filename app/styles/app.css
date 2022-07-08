@@ -718,10 +718,6 @@ video {
   list-style-type: disc;
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -1227,10 +1223,6 @@ video {
     background-image: url('/img/bg-3.png');
   }
 
-  .sm\:bg-center {
-    background-position: center;
-  }
-
   .sm\:bg-bottom {
     background-position: bottom;
   }
@@ -1306,18 +1298,9 @@ video {
     background-size: cover;
   }
 
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .md\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   .md\:py-2 {
@@ -1335,11 +1318,6 @@ video {
 
   .md\:pt-0 {
     padding-top: 0px;
-  }
-
-  .md\:hover\:border-white:hover {
-    --tw-border-opacity: 1;
-    border-color: rgb(255 255 255 / var(--tw-border-opacity));
   }
 
   .md\:hover\:border-emerald-400:hover {
