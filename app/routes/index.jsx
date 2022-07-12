@@ -78,37 +78,37 @@ export default function Index() {
                   </a>
 
                   <a
-                    href="/"
-                    className="text-slate-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    href="about"
+                    className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     About
                   </a>
 
                   <a
                     href="/"
-                    className="text-slate-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Services
                   </a>
 
                   <a
                     href="/"
-                    className="text-slate-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Team
                   </a>
                   <a
                     href="/"
-                    className="text-slate-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
                   </a>
                 </div>
               </div>
             </div>
-            <div className="flex cursor-pointer space-x-2 p-2 border-2 border-slate-900 rounded-lg hover:bg-slate-900 hover:rounded-lg hover:p-2 hover:text-emerald-600">
+            <div className="flex cursor-pointer space-x-2 p-2 border-2 border-slate-900 rounded-lg hover:bg-slate-900 hover:rounded-lg hover:p-2 hover:text-emerald-400">
               <img className="h-6" src="img/phone-icon.png" alt="call" />
-              <p className="hidden ">020 7183 7649</p>
+              <p className="hidden md:block">020 7183 7649</p>
             </div>
           </div>
           <div className="sm:hidden " id="mobile-menu">
@@ -123,7 +123,7 @@ export default function Index() {
               </a>
 
               <a
-                href="/"
+                href="about"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 aria-current="false"
               >
@@ -173,7 +173,7 @@ export default function Index() {
         ></video>
       </header>
 
-      <div className="bg-none sm:bg-carry md:bg-cover sm:bg-bottom py-16  md:px-10">
+      <div className="bg-none sm:bg-carry md:bg-cover sm:bg-bottom py-16  px-10">
         <div className="md:flex md:flex-row">
           <div>
             <p className="text-4xl text-sky-600 pl-6">Our services</p>
@@ -194,28 +194,28 @@ export default function Index() {
                 alt="lock"
               />
             </div> */}
-            <div className="flex flex-col md:flex-row md:items-center my-6 space-y-2 md:space-y-0 md:space-x-4 md:pl-12 md:mb-16">
-              <div className="flex justify-center space-x-2 md:space-x-4">
+            <div className="flex flex-col md:flex-row md:items-center my-6 space-y-4 md:space-y-0 md:space-x-4 md:pl-12 md:my-16">
+              <div className="flex justify-center space-x-4">
                 <div>
-                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition">
+                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition md:py-2 md:w-36 md:font-bold">
                     Consultancy
                   </button>
                 </div>
                 <div>
-                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition">
+                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition md:py-2 md:w-36 md:font-bold">
                     Infrastructure
                   </button>
                 </div>
               </div>
 
-              <div className="flex justify-center space-x-2 md:space-x-4">
+              <div className="flex justify-center space-x-4">
                 <div>
-                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition">
+                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition md:py-2 md:w-36 md:font-bold">
                     DevOps
                   </button>
                 </div>
                 <div>
-                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition md:hover:text-emerald-400 md:hover:border-emerald-400">
+                  <button className="text-sm border-2 border-sky-700 bg-sky-600 rounded w-32 py-2 text-white font-mono hover:border-2 hover:bg-opacity-10 hover:text-slate-900 hover:border-slate-800 transition md:hover:text-emerald-400 md:hover:border-emerald-400 md:py-2 md:w-36 md:font-bold">
                     SecOps
                   </button>
                 </div>
@@ -224,7 +224,7 @@ export default function Index() {
           </div>
           <div className=" my-auto">
             <img
-              className="w-4/5 hidden md:block m-auto"
+              className="w-4/5 hidden lg:block m-auto"
               src="img/padlock.png"
               alt="pad"
             />
@@ -232,59 +232,44 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="text-white text-center bg-slate-800 py-8">
-        <p className="text-2xl font-semibold pb-2">
+      <div className="text-white md:text-center bg-slate-800 py-8 text-center">
+        <p className="text-2xl font-semibold pb-2 md:py-8 md:text-3xl">
           Securing IT and knowledge assets
         </p>
-        <div className="flex flex-col text-center py-6 space-y-2 font-mono text-xl md:hidden">
-          <div className="flex bg-sky-600 rounded mx-16 p-3 pl-5 place-content-around">
+
+        <div className="flex flex-col mx-8 my-6 justify-center space-y-2 font-mono text-xl md:flex-row md:space-x-6 md:h-56">
+          <div className="flex bg-sky-600 rounded p-3 place-content-between mt-2 space-x-4 items-center md:flex-col-reverse md:space-x-0 md:place-content-around md:w-1/4">
             <div>Peace of mind</div>
             <div>
-              <img className="h-12" src="img/brain 3.png" alt="brain" />
+              <img className="h-16 md:h-28" src="img/brain 3.png" alt="brain" />
             </div>
           </div>
-          <div className="flex border border-sky-600 rounded mx-16 p-3 pl-5 place-content-between items-center">
+          <div className="flex border border-sky-600 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/4 md:place-content-around">
             <div>Reduced downtime</div>
             <div>
-              <img className="h-16" src="img/stopwatch.png" alt="stop" />
+              <img
+                className="h-16 md:h-28"
+                src="img/stopwatch.png"
+                alt="stop"
+              />
             </div>
           </div>
-          <div className="flex bg-sky-600 rounded mx-16 p-3 pl-5 items-center">
-            <div className="text-left text-lg">
+
+          <div className="flex bg-sky-600 rounded p-3 items-center place-content-between md:flex-col-reverse md:w-1/4 md:place-content-around md:pt-4 md:space-y-2">
+            <div className="text-left md:text-center">
               Faster deployment of software
             </div>
             <div>
-              <img className="h-10 px-2" src="img/software-03.png" alt="ware" />
+              <img
+                className="h-16 md:h-24"
+                src="img/software-03.png"
+                alt="ware"
+              />
             </div>
           </div>
         </div>
 
-        <div className="hidden md:block">
-          <div className="flex text-center py-6 font-mono text-xl space-x-10">
-            <div className="flex flex-col-reverse bg-sky-600 rounded p-3 pl-5 place-content-between items-center">
-              <div>Peace of mind</div>
-              <div>
-                <img className="h-12" src="img/brain 3.png" alt="brain" />
-              </div>
-            </div>
-            <div className="flex flex-col-reverse border border-sky-600 rounded p-3 pl-5 place-content-between items-center">
-              <div>Reduced downtime</div>
-              <div>
-                <img className="h-16" src="img/stopwatch.png" alt="" />
-              </div>
-            </div>
-            <div className="flex flex-col-reverse bg-sky-600 rounded p-3 items-center">
-              <div className="text-left text-lg">
-                Faster deployment of software
-              </div>
-              <div>
-                <img className="h-10 px-2" src="img/software-03.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <ul className="list-disc text-left mx-12 text-sm font-mono font-light">
+        <ul className="list-disc text-left mx-12 text-sm font-mono font-light md:py-8 md:leading-8 md:text-lg md:mx-36">
           <li>Customers trust your brand with their data</li>
           <li>
             Secure IT services and ongoing maintenance reduces the likelihood of
@@ -297,22 +282,28 @@ export default function Index() {
         </ul>
       </div>
 
-      <div className="md:flex bg-chess bg-cover md:bg-none text-center h-72 md:h-auto pt-16 md:pt-0">
-        <div className="md:w-3/5 py-8 px-4 bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72">
-          <p className="font-bold text-slate-800 pb-8 px-4 text-2xl">
-            A CLEAR <span className="text-emerald-400">HOLISTIC</span>
+      <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:pt-8 md:pb-8">
+        <div className="md:w-1/2 py-8 px-12 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72 md:pt-28 md:pl-16">
+          <p className="font-bold text-slate-800 pb-8 text-2xl">
+            A CLEAR<span className="text-emerald-400"> HOLISTIC </span>
             BUSINESS-LED APPROACH
           </p>
-          <p className="font-mono text-sm font-bold">
+          <p className="font-mono text-sm font-bold md:text-lg md:font-light md:py-8">
             Where IT and knowledge assets are protected in a controlled way, to
             support the way <em>your</em> business functions and uses IT.
           </p>
         </div>
-        <div className="hidden md:block bg-chess bg-cover w-2/5"></div>
+        <div className="hidden md:block w-1/2 items-center">
+          <img
+            className="rounded-xl h-96 hidden md:block mx-auto shadow-slate-500 shadow-xl"
+            src="img/chess.jpeg"
+            alt="chess"
+          />
+        </div>
       </div>
 
-      <div className="bg-sky-600 text-white text-center py-6">
-        <p className="font-bold text-2xl pb-4">
+      <div className="bg-sky-600 text-white text-center py-6 md:py-12">
+        <p className="font-bold text-2xl pb-4 md:pb-10 md:text-3xl">
           Secure IT Across the Enterprise
         </p>
         <p className="font-mono italic pb-5">
@@ -321,41 +312,106 @@ export default function Index() {
         </p>
 
         <div className="flex flex-col space-y-2">
-          <div className="flex justify-center space-x-2">
-            <div className="border border-slate-600 bg-slate-200 text-slate-800 w-32  h-32  p-2 text-sm">
+          <div className="flex place-content-around space-x-28 md:space-x-36 absolute text-xl md:text-3xl left-1/2 right-1/2 pt-16 font-mono">
+            <div className="bg-slate-800 bg-opacity-50 rounded px-1">
               Hardware
             </div>
-            <div className="border border-slate-600 bg-slate-200 text-slate-800 w-32  h-32 p-2 text-sm">
+            <div className="bg-slate-800 bg-opacity-50 rounded px-1">
               Software
             </div>
           </div>
-          <div className="flex justify-center space-x-2">
-            <div className="border border-slate-600 bg-slate-200 text-slate-800 w-32  h-32  p-2 text-sm">
+          <div className="flex place-content-around space-x-32 md:space-x-36 absolute text-lg text-left md:text-3xl left-1/2 right-1/2 pt-40 md:pt-64 text-black font-mono font-bold">
+            <div className="bg-white bg-opacity-50 rounded px-1">
               Security processes and auditing
             </div>
-            <div className="border border-slate-600 bg-slate-200 text-slate-800 w-32  h-32  p-2 text-sm">
+            <div className="bg-white bg-opacity-50 rounded px-1 pt-1 h-20">
               Security Training
             </div>
           </div>
+          <div className="flex justify-center space-x-2 md:space-x-96">
+            <div className="bg-hardware border-l-8 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:pr-20 font-mono font-bold text-white"></div>
+            <div className="bg-software border-r-8 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:py-20 font-mono font-bold text-white"></div>
+          </div>
+          <div className="flex justify-center space-x-2 md:space-x-96 py-1/2">
+            <div className="bg-process bg-cover border-l-8 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 py-12 md:w-52 md:py-20 font-mono font-bold text-black"></div>
+            <div className="bg-training bg-cover bg-right border-r-8 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 pt-16 md:w-52 md:py-20 font-mono font-bold text-black"></div>
+          </div>
         </div>
-        <p className="font-mono pt-5 px-6">
+        <p className="font-mono pt-5 px-8 md:px-28 md:mt-5">
           Where digital technologies and data assets are protected – end to end
           all the time. This is what we do. And have been doing for over 20
           years.
         </p>
       </div>
 
-      <div className="bg-white text-center">
+      <div className="bg-white text-center flex flex-col space-y-7 py-7">
         <p className="text-sky-600 font-bold text-2xl px-6 py-6">
           Want to protect your data assets and devices?
         </p>
-        <button className="text-sm border border-slate-700 bg-slate-800 rounded w-32 py-2 text-white hover:bg-opacity-30 hover:text-slate-900  transition">
+        <button className="text-sm font-mono font-bold border-2 border-slate-800 rounded p-2 w-36 m-auto text-slate-700 hover:bg-slate-800 hover:text-emerald-400  transition">
           Get in touch
         </button>
         <p className="text-sm p-5">
           We'll never share your email with anyone else & we will only respond
           to your Message. No marketing lists.
         </p>
+      </div>
+
+      <div className="flex flex-col md:flex-row p-10 bg-hardware bg-cover justify-center">
+        <div className="bg-white bg-opacity-50 text-center py-4 px-10">
+          <h2 className="text-2xl font-semibold pb-4">Contact us</h2>
+          <button className="text-sm border border-slate-700 bg-slate-800 rounded w-32 py-2 text-white hover:bg-opacity-30 hover:text-white transition mt-6">
+            Call us
+          </button>
+          <button className="text-sm border border-slate-700 bg-slate-800 rounded w-32 py-2 text-white hover:bg-opacity-30 hover:text-white  transition">
+            Email us
+          </button>
+          <h3 className="text-lg font-semibold">Business hours</h3>
+          <ul className="text-left px-10">
+            <li>Mon - Fri: 9:00 am - 5:00 pm</li>
+            <li>Saturday: Closed</li>
+            <li>Sunday: 9:00 am - 5:00 pm</li>
+          </ul>
+          <h3 className="text-lg font-semibold">Address</h3>
+          <p>10 fernhurst Gardens, Edgware, Greater London</p>
+        </div>
+        <div className="bg-white bg-opacity-80 p-4 px-32">
+          <p className="text-2xl font-semibold pb-4">Get in touch</p>
+          {/* <form action="input">Name</form> */}
+          <div>
+            <form className="flex flex-col space-y-3" action="action_page.php">
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Your last name.."
+              />
+
+              <label for="subject">Message</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Write something.."
+                // style="height:200px"
+              ></textarea>
+
+              <input
+                className=" cursor-pointer border-2 border-slate-800 rounded px-2 hover:bg-slate-800 hover:text-white transition"
+                type="submit"
+                value="Submit"
+              />
+            </form>
+          </div>
+        </div>
       </div>
     </>
   );
