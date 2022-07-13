@@ -10,6 +10,8 @@ module.exports = {
       'software':"url('/img/software2.jpg')",
       'process':"url('/img/processes.jpg')",
       'training':"url('/img/training.jpeg')",
+      'chain':"url('/img2/chains.jpg')",
+      'building':"url('/img2/buildings.jpg')",
   }),
   
   plugins: [],

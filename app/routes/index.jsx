@@ -85,20 +85,20 @@ export default function Index() {
                   </a>
 
                   <a
-                    href="/"
+                    href="services"
                     className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Services
                   </a>
 
                   <a
-                    href="/"
+                    href="team"
                     className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Team
                   </a>
                   <a
-                    href="/"
+                    href="#contact-us"
                     className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
@@ -180,7 +180,7 @@ export default function Index() {
             <hr className="border bg-emerald-400 border-emerald-400 w-32 my-6 ml-32 md:mb-16" />
 
             <div>
-              <p className="text-slate-900 font-light text-lg md:pr-36 md:py-2">
+              <p className="text-slate-900 font-light text-lg md:pr-36 md:py-2 md:pl-7">
                 PE Safe is an integrated IT solution provider and consultancy
                 harnessing cybersecurity for business continuity and digital
                 asset protection
@@ -237,14 +237,14 @@ export default function Index() {
           Securing IT and knowledge assets
         </p>
 
-        <div className="flex flex-col mx-8 my-6 justify-center space-y-2 font-mono text-xl md:flex-row md:space-x-6 md:h-56">
-          <div className="flex bg-sky-600 rounded p-3 place-content-between mt-2 space-x-4 items-center md:flex-col-reverse md:space-x-0 md:place-content-around md:w-1/4">
+        <div className="flex flex-col mx-8 my-6 justify-center space-y-2 font-mono text-xl md:flex-row md:space-x-10 md:h-56">
+          <div className="flex bg-sky-600 rounded p-3 place-content-between mt-2 space-x-4 items-center md:flex-col-reverse md:space-x-0 md:place-content-around md:w-1/5 shadow-lg">
             <div>Peace of mind</div>
             <div>
               <img className="h-16 md:h-28" src="img/brain 3.png" alt="brain" />
             </div>
           </div>
-          <div className="flex border border-sky-600 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/4 md:place-content-around">
+          <div className="flex border border-sky-600 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/5 md:place-content-around shadow-lg">
             <div>Reduced downtime</div>
             <div>
               <img
@@ -255,7 +255,7 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="flex bg-sky-600 rounded p-3 items-center place-content-between md:flex-col-reverse md:w-1/4 md:place-content-around md:pt-4 md:space-y-2">
+          <div className="flex bg-sky-600 rounded p-3 items-center place-content-between md:flex-col-reverse md:w-1/5 md:place-content-around md:pt-4 md:space-y-2 shadow-lg">
             <div className="text-left md:text-center">
               Faster deployment of software
             </div>
@@ -282,7 +282,7 @@ export default function Index() {
         </ul>
       </div>
 
-      <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:pt-8 md:pb-8">
+      <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:pt-16 md:pb-16">
         <div className="md:w-1/2 py-8 px-12 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72 md:pt-28 md:pl-16">
           <p className="font-bold text-slate-800 pb-8 text-2xl">
             A CLEAR<span className="text-emerald-400"> HOLISTIC </span>
@@ -313,28 +313,28 @@ export default function Index() {
 
         <div className="flex flex-col space-y-2">
           <div className="flex place-content-around space-x-28 md:space-x-36 absolute text-xl md:text-3xl left-1/2 right-1/2 pt-16 font-mono">
-            <div className="bg-slate-800 bg-opacity-50 rounded px-1">
+            <div className="bg-slate-800 bg-opacity-50 rounded px-1 shadow-lg">
               Hardware
             </div>
-            <div className="bg-slate-800 bg-opacity-50 rounded px-1">
+            <div className="bg-slate-800 bg-opacity-50 rounded px-1 shadow-lg">
               Software
             </div>
           </div>
           <div className="flex place-content-around space-x-32 md:space-x-36 absolute text-lg text-left md:text-3xl left-1/2 right-1/2 pt-40 md:pt-64 text-black font-mono font-bold">
-            <div className="bg-white bg-opacity-50 rounded px-1">
+            <div className="bg-white bg-opacity-50 rounded px-1 shadow-lg">
               Security processes and auditing
             </div>
-            <div className="bg-white bg-opacity-50 rounded px-1 pt-1 h-20">
+            <div className="bg-white bg-opacity-50 rounded px-1 pt-1 h-20 shadow-lg">
               Security Training
             </div>
           </div>
           <div className="flex justify-center space-x-2 md:space-x-96">
-            <div className="bg-hardware border-l-8 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:pr-20 font-mono font-bold text-white"></div>
-            <div className="bg-software border-r-8 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:py-20 font-mono font-bold text-white"></div>
+            <div className="bg-hardware md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:pr-20 font-mono font-bold text-white"></div>
+            <div className="bg-software md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:py-20 font-mono font-bold text-white"></div>
           </div>
           <div className="flex justify-center space-x-2 md:space-x-96 py-1/2">
-            <div className="bg-process bg-cover border-l-8 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 py-12 md:w-52 md:py-20 font-mono font-bold text-black"></div>
-            <div className="bg-training bg-cover bg-right border-r-8 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 pt-16 md:w-52 md:py-20 font-mono font-bold text-black"></div>
+            <div className="bg-process bg-cover md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 py-12 md:w-52 md:py-20 font-mono font-bold text-black"></div>
+            <div className="bg-training bg-cover bg-right md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 pt-16 md:w-52 md:py-20 font-mono font-bold text-black"></div>
           </div>
         </div>
         <p className="font-mono pt-5 px-8 md:px-28 md:mt-5">
@@ -357,13 +357,16 @@ export default function Index() {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row p-10 bg-hardware bg-cover justify-center">
-        <div className="bg-white bg-opacity-50 text-center py-4 px-10">
-          <h2 className="text-2xl font-semibold pb-4">Contact us</h2>
-          <button className="text-sm border border-slate-700 bg-slate-800 rounded w-32 py-2 text-white hover:bg-opacity-30 hover:text-white transition mt-6">
+      <div
+        id="contact-us"
+        className="flex flex-col md:flex-row p-10 bg-hardware bg-cover justify-center"
+      >
+        <div className="bg-white bg-opacity-50 text-left py-4 px-10">
+          <h2 className="text-2xl font-semibold">Contact us</h2>
+          <button className="mb-4 text-sm border-2 mr-1 border-slate-700 rounded w-32 py-2 text-slate-800 hover:bg-slate-800 hover:text-white transition mt-6">
             Call us
           </button>
-          <button className="text-sm border border-slate-700 bg-slate-800 rounded w-32 py-2 text-white hover:bg-opacity-30 hover:text-white  transition">
+          <button className="mb-4 text-sm border-2 ml-1 text-white border-sky-600 bg-sky-600 rounded w-32 py-2  hover:border-white hover:bg-opacity-0 transition">
             Email us
           </button>
           <h3 className="text-lg font-semibold">Business hours</h3>
@@ -375,7 +378,7 @@ export default function Index() {
           <h3 className="text-lg font-semibold">Address</h3>
           <p>10 fernhurst Gardens, Edgware, Greater London</p>
         </div>
-        <div className="bg-white bg-opacity-80 p-4 px-32">
+        <div className="bg-white bg-opacity-80 p-4 md:px-32">
           <p className="text-2xl font-semibold pb-4">Get in touch</p>
           {/* <form action="input">Name</form> */}
           <div>
@@ -405,7 +408,7 @@ export default function Index() {
               ></textarea>
 
               <input
-                className=" cursor-pointer border-2 border-slate-800 rounded px-2 hover:bg-slate-800 hover:text-white transition"
+                className="cursor-pointer border-2 border-slate-800 rounded px-2 hover:bg-slate-800 hover:text-white transition"
                 type="submit"
                 value="Submit"
               />
