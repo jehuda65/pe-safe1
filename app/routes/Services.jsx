@@ -158,7 +158,7 @@ export default function Services() {
           Secure IT and knowledge is a
           <span className="text-white"> 'necessary'</span> requirement
         </div>
-        <div className="px-5 py-3 text-sm md:text-base font-mono text-white font-light">
+        <div className="px-5 md:px-20 py-3 text-sm md:text-base font-mono text-white font-light">
           With digitally disrupted business models and IT hardware changing so
           fast, a secure IT platform and service are required for competitive
           success.
@@ -304,14 +304,14 @@ export default function Services() {
           src="/img2/services.png"
           alt="ting"
         />
-        <div className="flex flex-col md:flex-row text-sm md:text-base space-y-2 font-thin my-4 mx-4">
-          <div className="flex-1">
+        <div className="flex flex-col md:flex-row text-sm md:text-base md:mx-44 md:mt-16 space-y-2 md:space-x-20 my-4 mx-4">
+          <div className="flex-1 md:px-5 text-justify">
             Active Performance Management offers a dynamic and integrated
             capability to identify the impact of disruptions on your operations.
             We provide forward-looking views of performance blockages and remove
             them - vital for business continuity.
           </div>
-          <div className="flex-1">
+          <div className="flex-1 md:px-5 text-justify">
             A critical list of actions required by IT for the operation allows
             for a business to react to unwanted changes quickly and optimise for
             business resilience.
@@ -319,46 +319,48 @@ export default function Services() {
         </div>
       </div>
 
-      <div className="bg-sky-600 text-white py-4">
-        <p className="text-xl font-bold text-center py-3">Our Approach</p>
-        <div className="grid grid-flow-col grid-cols-2 grid-rows-4 mx-12 my-6 w-72 gap-y-5">
-          <div className="bg-white bg-opacity-90 text-slate-800 w-36 p-4">
+      <div className="bg-sky-600 text-white py-4 md:py-20">
+        <p className="text-xl font-bold text-center py-3 md:text-2xl">
+          Our Approach
+        </p>
+        <div className="grid grid-flow-col grid-cols-2 grid-rows-4 mx-12 my-6 w-72 gap-y-5 md:gap-y-2 md:mx-auto">
+          <div className="bg-white bg-opacity-90 text-slate-800 w-36 p-4 md:pt-16">
             Digital solutions & services:
           </div>
-          <div className="bg-white bg-opacity-60 text-slate-800 w-36 p-4">
+          <div className="bg-white bg-opacity-60 text-slate-800 w-36 p-4 md:pt-16">
             Robust Infrastructure:
           </div>
-          <div className="bg-white bg-opacity-90 text-slate-800 w-36 p-4">
+          <div className="bg-white bg-opacity-90 text-slate-800 w-36 p-4 md:pt-16">
             Secure Digital Infrastructure:
           </div>
-          <div className="bg-white bg-opacity-60 text-slate-800 w-36 p-4">
+          <div className="bg-white bg-opacity-60 text-slate-800 w-36 p-4 md:pt-16">
             Reputation:
           </div>
-          <div className="font-mono text-xs bg-slate-800 p-2 w-52 py-4">
+          <div className="font-mono text-xs bg-slate-800 p-2 w-52 py-4 md:w-96 md:text-base md:py-10 md:px-16">
             Focused on business drivers, from infrastructure to software
             development that adds real value to your business.
           </div>
-          <div className="font-mono text-xs bg-slate-800 bg-opacity-80 p-2 w-52 py-4">
+          <div className="font-mono text-xs bg-slate-800 bg-opacity-80 p-2 w-52 py-4 md:w-96 md:text-base md:py-10 md:px-16">
             This leads to less mistakes and zero downtime, giving you maximum
             efficiency of time.
           </div>
-          <div className="font-mono text-xs bg-slate-800 p-2 w-52 py-4">
+          <div className="font-mono text-xs bg-slate-800 p-2 w-52 py-4 md:w-96 md:text-base md:py-10 md:px-16">
             We protect your digital assets, leading to a reduced likelihood of
             cyber attacks, saving you time and money.
           </div>
-          <div className="font-mono text-xs bg-slate-800 bg-opacity-80 p-2 w-52 py-4">
+          <div className="font-mono text-xs bg-slate-800 bg-opacity-80 p-2 w-52 py-4 md:w-96 md:text-base md:py-10 md:px-16">
             We enable you with systems to protect customer data, securing a good
             customer loyalty.
           </div>
         </div>
       </div>
 
-      <div className="bg-shake bg-center text-center py-4">
-        <p className="text-lg font-bold py-2">
+      <div className="bg-shake bg-center text-center py-4 md:py-16">
+        <p className="text-lg font-bold py-2 md:mb-8 md:text-2xl">
           Interested in our services? We’re here to help!
         </p>
         <p>Do you want to get your website secured?</p>
-        <button className="bg-slate-800 p-2 px-6 text-white my-2 transition rounded hover:bg-opacity-20 hover:backdrop-blur-sm hover:border">
+        <button className="bg-slate-800 md:mt-8 p-2 px-6 text-white my-2 transition rounded hover:bg-opacity-20 hover:backdrop-blur-sm hover:border">
           Contact us
         </button>
       </div>

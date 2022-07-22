@@ -210,10 +210,10 @@ export default function About() {
         </div>
       </div>
       <div className="bg-slate-800 text-white py-6 md:py-20">
-        <div className="text-center text-xl md:text-3xl text-emerald-400 font-bold">
+        <div className="text-center md:text-left md:pl-44 text-xl md:text-3xl text-emerald-400 font-bold">
           Who are we?
         </div>
-        <div className="p-2 text-sm md:text-xl text-center md:text-left md:px-44 md:py-6">
+        <div className="p-2 text-sm md:text-xl text-center md:text-left md:px-44 md:py-6 md:font-light">
           We are a leading consultancy business focused on testing and improving
           the cyber security of our clients' software and websites.
         </div>

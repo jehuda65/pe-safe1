@@ -112,7 +112,7 @@ export default function Index() {
                 </div>
               </div>
             </div>
-            <div className="flex cursor-pointer space-x-2 p-2 border-2 border-slate-900 rounded-lg hover:bg-slate-900 hover:rounded-lg hover:p-2 hover:text-emerald-400">
+            <div className="flex cursor-pointer space-x-2 p-2 border bg-white bg-opacity-40 border-slate-900 rounded-lg hover:bg-slate-900 hover:rounded-lg hover:p-2 hover:text-emerald-400 transition">
               <img className="h-6" src="img/phone-icon.png" alt="call" />
               <p className="hidden md:block">020 7183 7649</p>
             </div>
@@ -239,7 +239,7 @@ export default function Index() {
       </div>
 
       <div className="text-white md:text-center bg-slate-800 py-8 text-center">
-        <p className="text-2xl font-semibold pb-2 md:py-8 md:text-3xl">
+        <p className="text-2xl font-semibold pb-2 md:py-16 md:text-left md:pl-44 md:text-3xl">
           Securing IT and knowledge assets
         </p>
 
@@ -337,8 +337,8 @@ export default function Index() {
         </ul>
       </div> */}
 
-      <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:pt-16 md:pb-16">
-        <div className="flex flex-col md:w-1/2 pt-16 pb-12 px-12 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 md:pt-28 md:pl-16">
+      <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:py-20 md:px-32 md:space-x-6">
+        <div className="flex flex-col md:w-1/2 pt-16 pb-12 px-12 md:px-0 md:pt-4 md:pr-16 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100">
           <p className="font-bold text-slate-800 pb-8 text-2xl">
             A CLEAR<span className="text-emerald-400"> HOLISTIC </span>
             BUSINESS-LED APPROACH
@@ -357,17 +357,17 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="bg-sky-600 text-white text-center py-10 md:py-12">
-        <p className="font-bold text-2xl pb-4 md:pb-10 md:text-3xl">
+      <div className="bg-sky-600 text-white text-center py-10 md:py-20">
+        <p className="font-bold text-2xl pb-4 md:pb-10 md:text-3xl md:text-left md:pl-44">
           Secure IT Across the Enterprise
         </p>
-        <p className="font-mono italic pb-5">
+        <p className="font-light md:text-lg md:text-left md:pl-44 pb-5">
           We protect your assets in
           <span className="text-emerald-400"> 4</span> areas:
         </p>
 
-        <div className="flex flex-col space-y-2">
-          <div className="flex place-content-around space-x-28 md:space-x-36 absolute text-xl md:text-3xl left-1/2 right-1/2 pt-16 font-mono">
+        <div className="flex flex-col space-y-2 md:space-y-8">
+          <div className="flex place-content-around space-x-28 md:space-x-80 absolute text-xl md:text-3xl left-1/2 right-1/2 md:right-1/4 pt-16 font-mono">
             <div className="bg-slate-800 bg-opacity-50 rounded px-1 shadow-lg">
               Hardware
             </div>
@@ -375,7 +375,7 @@ export default function Index() {
               Software
             </div>
           </div>
-          <div className="flex place-content-around space-x-32 md:space-x-36 absolute text-lg text-left md:text-3xl left-1/2 right-1/2 pt-40 md:pt-64 text-black font-mono font-bold">
+          <div className="flex place-content-around space-x-32 md:space-x-80 absolute text-lg text-left md:text-3xl left-1/2 md:right-1/4 right-1/2 pt-40 md:pt-64 text-black font-mono font-bold">
             <div className="bg-white bg-opacity-50 rounded px-1 shadow-lg">
               Security processes and auditing
             </div>
@@ -383,23 +383,23 @@ export default function Index() {
               Security Training
             </div>
           </div>
-          <div className="flex justify-center space-x-2 md:space-x-96">
-            <div className="bg-hardware md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:pr-20 font-mono font-bold text-white"></div>
+          <div className="flex justify-center space-x-2 md:space-x-64">
+            <div className="bg-hardware md:border-l-2 border-b-4 md:ml-10 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:pr-20 font-mono font-bold text-white"></div>
             <div className="bg-software md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 py-12 md:h-52 md:w-52 md:py-20 font-mono font-bold text-white"></div>
           </div>
-          <div className="flex justify-center space-x-2 md:space-x-96 py-1/2">
+          <div className="flex justify-center space-x-2 md:space-x-64 py-1/2 md:ml-10">
             <div className="bg-process bg-cover md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 py-12 md:w-52 md:py-20 font-mono font-bold text-black"></div>
             <div className="bg-training bg-cover bg-right md:border-l-2 border-b-4 shadow-md shadow-sky-900 border-slate-600 md:rounded-lg w-32 h-32 md:h-52 pt-16 md:w-52 md:py-20 font-mono font-bold text-black"></div>
           </div>
         </div>
-        <p className="font-mono pt-5 px-8 md:px-28 md:mt-5">
+        <p className="font-mono pt-5 px-8 md:px-28 md:mt-5 md:text-left">
           Where digital technologies and data assets are protected – end to end
           all the time. This is what we do. And have been doing for over 20
           years.
         </p>
       </div>
 
-      <div className="bg-white text-center flex flex-col space-y-7 py-7">
+      <div className="bg-white text-center flex flex-col space-y-7 md:space-y-12 py-7 md:py-20">
         <p className="text-sky-600 font-bold text-2xl px-6 py-6">
           Want to protect your data assets and devices?
         </p>
