@@ -12,6 +12,8 @@ module.exports = {
       'training':"url('/img/training.jpeg')",
       'chain':"url('/img2/chains.jpg')",
       'building':"url('/img2/buildings.jpg')",
+      'shake':"url('/img2/handshake.jpg')",
+      'earth':"url('/img2/Earth.jpg')",
   }),
   
   plugins: [],

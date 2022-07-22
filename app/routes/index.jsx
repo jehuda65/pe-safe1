@@ -103,6 +103,12 @@ export default function Index() {
                   >
                     Contact
                   </a>
+                  <a
+                    href="index2"
+                    className="text-slate-900 hover:bg-gray-700 hover:text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    index2
+                  </a>
                 </div>
               </div>
             </div>
@@ -131,14 +137,14 @@ export default function Index() {
               </a>
 
               <a
-                href="/"
+                href="services"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Services
               </a>
 
               <a
-                href="/"
+                href="team"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Team
@@ -281,9 +287,58 @@ export default function Index() {
           </li>
         </ul>
       </div>
+      {/* <div className="text-slate-800 md:text-center py-8 text-center">
+        <p className="text-2xl font-semibold pb-2 md:py-8 md:text-3xl">
+          Securing IT and knowledge assets
+        </p>
+
+        <div className="flex flex-col text-white mx-8 my-6 justify-center space-y-2 font-mono text-xl md:flex-row md:space-x-10 md:h-56">
+          <div className="flex bg-sky-600 rounded p-3 place-content-between mt-2 space-x-4 items-center md:flex-col-reverse md:space-x-0 md:place-content-around md:w-1/5 shadow-lg hover:opacity-90 hover:ring hover:drop-shadow-2xl">
+            <div>Peace of mind</div>
+            <div>
+              <img className="h-16 md:h-28" src="img/brain 3.png" alt="brain" />
+            </div>
+          </div>
+          <div className="flex border text-slate-800 border-sky-600 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/5 md:place-content-around shadow-lg">
+            <div>Reduced downtime</div>
+            <div>
+              <img
+                className="h-16 md:h-28"
+                src="img/stopwatch.png"
+                alt="stop"
+              />
+            </div>
+          </div>
+
+          <div className="flex bg-sky-600 rounded p-3 items-center place-content-between md:flex-col-reverse md:w-1/5 md:place-content-around md:pt-4 md:space-y-2 shadow-lg">
+            <div className="text-left md:text-center">
+              Faster deployment of software
+            </div>
+            <div>
+              <img
+                className="h-16 md:h-24"
+                src="img/software-03.png"
+                alt="ware"
+              />
+            </div>
+          </div>
+        </div>
+
+        <ul className="list-disc text-left mx-12 text-sm font-mono font-light md:py-8 md:leading-8 md:text-lg md:mx-36">
+          <li>Customers trust your brand with their data</li>
+          <li>
+            Secure IT services and ongoing maintenance reduces the likelihood of
+            an IT service or digital asset attack
+          </li>
+          <li>
+            Peace of mind – you are in good hands with PESafe so you can focus
+            on your business
+          </li>
+        </ul>
+      </div> */}
 
       <div className="md:flex bg-chess bg-cover md:bg-none pt-16 md:pt-16 md:pb-16">
-        <div className="md:w-1/2 py-8 px-12 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72 md:pt-28 md:pl-16">
+        <div className="flex flex-col md:w-1/2 pt-16 pb-12 px-12 align-middle bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 md:pt-28 md:pl-16">
           <p className="font-bold text-slate-800 pb-8 text-2xl">
             A CLEAR<span className="text-emerald-400"> HOLISTIC </span>
             BUSINESS-LED APPROACH
@@ -302,7 +357,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="bg-sky-600 text-white text-center py-6 md:py-12">
+      <div className="bg-sky-600 text-white text-center py-10 md:py-12">
         <p className="font-bold text-2xl pb-4 md:pb-10 md:text-3xl">
           Secure IT Across the Enterprise
         </p>
@@ -391,12 +446,12 @@ export default function Index() {
                 placeholder="Your name.."
               />
 
-              <label for="lname">Last Name</label>
+              <label for="email">Email</label>
               <input
                 type="text"
-                id="lname"
-                name="lastname"
-                placeholder="Your last name.."
+                id="email"
+                name="email address"
+                placeholder="Your email address.."
               />
 
               <label for="subject">Message</label>
