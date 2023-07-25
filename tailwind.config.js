@@ -14,6 +14,7 @@ module.exports = {
       'building':"url('/img2/buildings.jpg')",
       'shake':"url('/img2/handshake.jpg')",
       'earth':"url('/img2/Earth.jpg')",
+      'secureit':"url('/img/background.mp4')",
   }),
   
   plugins: [],

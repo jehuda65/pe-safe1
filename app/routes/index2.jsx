@@ -1,160 +1,13 @@
+import ContactForm from '../components/ContactForm';
+import Navbar from '../components/navBar';
+
+
 export default function Index() {
   return (
     <>
-      <nav className="md:bg-white md:fixed w-full z-20">
-        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
-            <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-              {/* <!-- Mobile menu button--> */}
-              <button
-                id="burger"
-                type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-                aria-controls="mobile-menu"
-                aria-expanded="false"
-              >
-                <span className="sr-only">Open main menu</span>
-
-                <svg
-                  x-description="Icon when menu is closed"
-                  x-state:on="Menu closed"
-                  x-state:off="Menu open"
-                  className="block h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-                <svg
-                  x-description="Icon when menu is open"
-                  x-state:on="Menu open"
-                  x-state:off="Menu closed"
-                  className="hidden h-6 w-6 active:max-h-full"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
-              </button>
-            </div>
-
-            <div className="flex-1 flex items-center justify-center sm:justify-start">
-              <div className="flex-shrink-0 flex items-center">
-                <img
-                  className="block lg:hidden h-16 w-auto"
-                  src="img/logo.png"
-                  alt="Workflow"
-                />
-                <img
-                  className="hidden lg:block h-16 w-auto"
-                  src="img/logo.png"
-                  alt="Workflow"
-                />
-              </div>
-              <div className="sm:ml-6 hidden sm:block">
-                <div className="flex space-x-4">
-                  <a
-                    href="/"
-                    className="bg-gray-900 text-emerald-400 px-3 py-2 rounded-md text-sm font-medium"
-                    aria-current="page"
-                  >
-                    Home
-                  </a>
-
-                  <a
-                    href="about"
-                    className="text-slate-900 hover:ring-1 hover:ring-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    About
-                  </a>
-
-                  <a
-                    href="services"
-                    className="text-slate-900 hover:ring-1 hover:ring-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Services
-                  </a>
-
-                  <a
-                    href="team"
-                    className="text-slate-900 hover:ring-1 hover:ring-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Team
-                  </a>
-                  <a
-                    href="#contact-us"
-                    className="text-slate-900 hover:ring-1 hover:ring-gray-900 px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Contact
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="flex cursor-pointer space-x-2 p-2 border-2 border-slate-900 rounded-lg hover:bg-slate-900 hover:rounded-lg hover:p-2 hover:text-emerald-400">
-              <img className="h-6" src="img/phone-icon.png" alt="call" />
-              <p className="hidden md:block">020 7183 7649</p>
-            </div>
-          </div>
-          <div className="sm:hidden " id="mobile-menu">
-            <div className="px-2 pt-2 pb-3 space-y-1">
-              {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-              <a
-                href="/"
-                className="bg-gray-900 text-white block px-3 py-2 rounded text-base font-medium"
-                aria-current="page"
-              >
-                Home
-              </a>
-
-              <a
-                href="about"
-                className="text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                aria-current="false"
-              >
-                About
-              </a>
-
-              <a
-                href="services"
-                className="text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Services
-              </a>
-
-              <a
-                href="team"
-                className="text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Team
-              </a>
-              <a
-                href="/"
-                className="text-slate-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Contact
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-      <div className="bg-gradient-to-tr from-emerald-400 to-sky-200 md:pt-8 ">
-        <header class="relative flex items-center h-64 sm:h-auto overflow-hidden  md:mt-16">
+      <Navbar />
+      <div className="bg-gradient-to-tr from-emerald-400 to-sky-200">
+        <header className="bg-secureit relative flex items-center h-64 sm:h-auto overflow-hidden ">
           <div className="relative z-30 p-5 px-20 my-48 text-6xl text-white bg-opacity-50 rounded-xl font-bold">
             Secure IT
             <div className="relative text-emerald-600 text-2xl font-medium text-center pt-3">
@@ -299,7 +152,7 @@ export default function Index() {
                 />
               </div>
             </div>
-            <div className="flex border text-slate-800 border-sky-600 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/5 md:place-content-around shadow-lg hover:scale-105 hover:opacity-90 hover:ring-1 hover:ring-sky-600 hover:drop-shadow-2xl transition">
+            <div className="flex text-slate-800 rounded p-3 place-content-between items-center md:flex-col-reverse md:w-1/5 md:place-content-around shadow-lg hover:scale-105 hover:opacity-90 hover:ring-2 hover:ring-slate-100 hover:drop-shadow-2xl transition">
               <div>Reduced downtime</div>
               <div>
                 <img
@@ -316,7 +169,7 @@ export default function Index() {
               </div>
               <div>
                 <img
-                  className="h-16 md:h-24"
+                  className="w-20 md:w-28"
                   src="img/software-03.png"
                   alt="ware"
                 />
@@ -337,7 +190,7 @@ export default function Index() {
           </ul>
         </div>
         {/* <hr className="w-5/6 m-auto border-sky-200" /> */}
-        <div className="bg-  border-2 border-slate-800 md:mx-16 md:mt-12 md:rounded-2xl">
+        <div className="md:mx-16 md:mt-12 md:rounded-2xl">
           <div className="md:flex bg-chess bg-cover md:bg-none pt-16 pb-1 md:py-16 md:pr-10">
             <div className="md:w-1/2 py-8 px-12 align-middle rounded-lg m-6 md:m-0 bg-gradient-to-t from-white via-white to-none md:bg-opacity-100 h-72 md:bg-none md:pt-28 md:pl-16">
               <p className="font-bold text-slate-800 pb-8 text-2xl">
@@ -358,8 +211,8 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <hr className="w-5/6 m-auto border-sky-200" />
-        <div className="bg-white rounded-3xl m-16 shadow-lg text-white text-center py-6 md:py-12">
+        {/* <hr className="w-5/6 m-auto border-sky-200" /> */}
+        <div className="md:bg-white rounded-3xl m-16 md:shadow-lg text-white text-center py-6 md:py-12">
           <p className="font-bold text-2xl pb-4 md:pb-10 md:text-3xl text-slate-800">
             Secure IT Across the Enterprise
           </p>
@@ -414,15 +267,15 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <p className="font-mono pt-5 px-8 md:px-28 md:mt-5 text-slate-800">
+          <p className="font-mono pt-5 px-8 font-bold md:px-28 md:mt-5 text-slate-800">
             Where digital technologies and data assets are protected – end to
             end all the time. This is what we do. And have been doing for over
             20 years.
           </p>
         </div>
 
-        <div className="text-center flex flex-col md:space-y-7 py-7 md:border-2 md:bg-white md:bg-opacity-40 md:border-slate-800 md:mx-44 md:mb-10 md:rounded-xl">
-          <p className="text-sky-600 font-bold text-xl md:text-3xl px-6 py-6">
+        <div className="text-center flex flex-col md:space-y-7 py-7 md:shadow-md md:bg-white md:bg-opacity-40 md:mx-44 md:mb-10 md:rounded-xl">
+          <p className="md:text-sky-600 font-bold text-xl md:text-3xl px-6 py-6">
             Want to protect your data assets and devices?
           </p>
           <button
@@ -441,7 +294,7 @@ export default function Index() {
           id="contact-us"
           className="flex flex-col md:flex-row p-10 bg-hardware bg-cover justify-center"
         >
-          <div className="bg-white bg-opacity-60 text-left py-4 px-10 md:w-1/2 md:pl-28">
+          <div className="bg-white bg-opacity-80 text-left py-4 px-10 md:w-1/2 md:pl-28">
             <h2 className="text-2xl font-semibold">Contact us</h2>
             <button className="mb-4 text-sm border-2 mr-1 border-slate-700 rounded w-32 py-2 text-slate-800 hover:bg-slate-800 hover:text-white transition mt-6">
               Call us
@@ -458,11 +311,12 @@ export default function Index() {
             <h3 className="text-lg font-semibold">Address</h3>
             <p>10 fernhurst Gardens, Edgware, Greater London</p>
           </div>
-          <div className="bg-white bg-opacity-80 p-4 md:w-1/2">
+          <div className="bg-white bg-opacity-90 p-4 md:w-1/2">
             <p className="text-2xl font-semibold pb-4">Get in touch</p>
             {/* <form action="input">Name</form> */}
             <div>
-              <form
+            <ContactForm />
+              {/* <form
                 className="flex flex-col space-y-3"
                 action="action_page.php"
               >
@@ -495,7 +349,11 @@ export default function Index() {
                   type="submit"
                   value="Submit"
                 />
-              </form>
+              </form> */}
+              <div className='flex space-x-4 p-10'><p>Whatsapp</p>
+              <a href="https://wa.me/+447555462145"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+</svg></a></div>
             </div>
           </div>
         </div>
