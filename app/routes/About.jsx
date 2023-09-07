@@ -1,6 +1,7 @@
 import Navbar from "../components/navBar";
 
 export default function About() {
+
   return (
     <>
     <Navbar />

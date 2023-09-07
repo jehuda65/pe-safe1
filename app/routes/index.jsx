@@ -5,7 +5,7 @@ import Header from "../components/header";
 import Holistic from "../components/holistic";
 import Navbar from "../components/navBar";
 import OurServices from "../components/ourServices";
-import Securing from "../components/securing";
+import Securing from "../components/Securing";
 
 
 export default function Index() {

@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about', current: true },
+  { name: 'About', href: '/about', current: false },
   { name: 'Services', href: '/services', current: false },
   { name: 'Team', href: '/team', current: false },
   { name: 'Contact', href: '#contact-us', current: false },
@@ -63,16 +63,15 @@ export default function Navbar() {
               <img className="h-6" src="img/phone-icon.png" alt="call" />
               <p className="hidden md:block font-bold">020 7183 7649</p>
             </div>
-            <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <div className='flex space-x-4'>
-          <div>
-            <img className='h-8' src="/img/whatsapp.png" alt=""/>
-            </div>
-            <div><a href="https://wa.me/+447555462145" className="text-sm font-semibold leading-6 text-gray-900">
-            WhatsApp <span aria-hidden="true">&rarr;</span>
-          </a>
-          </div>
-          
+                <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+                  <div className='flex space-x-4'>
+                     <div>
+                     <img className='h-8' src="/img/whatsapp.png" alt=""/>
+                  </div>
+                  <div><a href="https://wa.me/+447555462145" className="text-sm font-semibold leading-6 text-gray-900">
+                  WhatsApp <span aria-hidden="true">&rarr;</span>
+                 </a>
+                </div>
           </div>
         </div>
               </div>

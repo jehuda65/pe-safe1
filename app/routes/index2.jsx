@@ -1,31 +1,13 @@
 import ContactForm from '../components/ContactForm';
+import Header from '../components/header';
 import Navbar from '../components/navBar';
 
 
 export default function Index() {
   return (
-    <>
+    <div>
       <Navbar />
-      <div className="bg-gradient-to-tr from-emerald-400 to-sky-200">
-        <header className="bg-secureit relative flex items-center h-64 sm:h-auto overflow-hidden ">
-          <div className="relative z-30 p-5 px-20 my-48 text-6xl text-white bg-opacity-50 rounded-xl font-bold">
-            Secure IT
-            <div className="relative text-emerald-600 text-2xl font-medium text-center pt-3">
-              <h3>
-                <em>USE US TO SECURE ALL YOUR ASSETS</em>
-              </h3>
-            </div>
-          </div>
-
-          <video
-            muted
-            loop
-            autoplay
-            className="absolute z-10 w-auto md:min-w-full md:min-h-full max-w-none "
-            src="img/background.mp4"
-          ></video>
-          <script>document.getElementById('vid').play();</script>
-        </header>
+      <Header />
 
         <div className="sm:bg-none md:bg-cover sm:bg-bottom py-16 px-10 md:mx-16">
           <div className=" md:flex md:flex-row">
@@ -358,6 +340,5 @@ export default function Index() {
           </div>
         </div>
       </div>
-    </>
   );
 }
